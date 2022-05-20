@@ -1,0 +1,9 @@
+Mangapedia is a website people can use to rate and write reviews for manga. The front end of the website was created using primarily HTML and CSS, while the database was created using MySQL. Finally, the API I decided to use is PHP.  The steps for navigating the website are as follows:
+1.	When you first enter the site you are greeted with the home page, which displays both the most popular and top rated manga. 
+2.	From here, you can create an account using the “log in” button at the top right corner of the page, and then clicking “sign up” at the bottom of the “log in” page. 
+3.	Once at the log in page, you will be prompted to create a username and password, as well as confirm your password. 
+4.	After creating your account, you will be redirected to the “log in” page to log in to your new account.
+5.	 After logging in you will be redirected to the home page, where you will be able to select a manga, and rate and review it.
+6.	In order to review a manga, first you must select a manga from the front page. Then, near the middle/bottom of the page, select “write review”. From here, you can choose a name, rating (from 1 – 5), and finally write a review. After clicking submit, the page will thank you for reviewing the manga. Once the page is reloaded, your review will show at the bottom of the page, and the average manga score will be updated. 
+7.	Using the log-out button at the top right of any page will end the session and redirect you to the log-in page.
+In the future, I would like to implement a profile page where you can see all the reviews you have written for each manga, as well as get recommendations based on reviews you have given. I would also like to add a feature where users are able to add their own manga entry (which would then be approved by a moderator) so other users can review.
